@@ -9,12 +9,12 @@ Please download the following zip file:
 ###How the run_analysis.R File Works
  1.  The program begins by loading the files contained in the zip file into data tables.  These files consist of training tables, testing tables & the corresponding headers for these files (i.e. features & labels).
  2.  Once I have loaded the files, I rename the column labels to my tables so that they correspond to the data they represent.
- 3.  I then merge the training labels table with the training sets table filtering to only include measurements on mean & standard deviation.
- 4.  Step 3 is repeated on the data in the test folder.
- 5.  Next I combine the training & testing tables in one file which called combine_data.
+ 3.  I then merge the training label table with the training set table, filtering to only include measurements on mean & standard deviation.
+ 4.  Step 3 is repeated on the data in the 'test' folder.
+ 5.  Next I combine the training & testing tables in one file which is called <b>combine_data</b>.
  6.  I reformat the column names to give them titles that more appropriately classify what the data is measuring.
- 7.  Finally I create an independent tidy data set, run_analysis, that grabs the average of each variable by activity & subject.
+ 7.  Finally I create an independent tidy data set, <b>run_analysis</b>, that grabs the average of each variable by activity & subject.
 
 ###Data Outputs
-  * combine_data: Combined data file of the training & test sets
-  * run_analysis: Average of each variable for each activity & every subject
+  * <b>combine_data</b>: Combined data file of the training & test sets including only measurements on mean & standard deviation
+  * <b>run_analysis</b>: Average of each variable for each activity & every subject
