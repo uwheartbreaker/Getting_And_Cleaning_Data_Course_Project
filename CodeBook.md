@@ -7,8 +7,7 @@ Please download the following zip file:
  * https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ###How the run_analysis.R File Works
- 1.  My code starts by loading the various files in the zip file.  These files consist of training tables,
-     
+ 1.  The file begins by loading the various files contained in the zip file.  These files consist of training tables, testing tables & the corresponding headers for these files (i.e. features & labels).
  2.
  3.
  4.
