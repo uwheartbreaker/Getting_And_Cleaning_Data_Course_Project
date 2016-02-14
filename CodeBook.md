@@ -1,8 +1,8 @@
-##Getting & Cleaning Data Course Project Codebook
+#Getting & Cleaning Data Course Project Codebook
 
 
 
-#Variables
+###Variables
   * Var 1
   * Var 2
   * 
