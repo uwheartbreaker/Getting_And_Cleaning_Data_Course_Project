@@ -1,7 +1,4 @@
-# Getting & Cleaning Data Course Project
-Course Project for the Getting &Cleaning Data Coursera Class
-
-----------------------------------------------------
+# Getting & Cleaning Data Course Project README
 
 ## Enclosed Files
 * run_analysis.R: Tidy dataset (combine_analysis) that extracts only the mean & standard deviation measurements for each subject.  Also contains another data set (run_analysis) that contains the average of each activity & subject.
