@@ -1,8 +1,6 @@
 #Getting & Cleaning Data Course Project Codebook
 
-This codebook describes the variables, the data & any transformations performed to clean up the 
-data in the run_analysis.R file.  The data comes from the UCI Machine Learning Repository.  For 
-further reference please refer to: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
+This codebook describes the variables, the data & any transformations performed to clean up the data in the run_analysis.R file.  The data comes from the UCI Machine Learning Repository.  For further reference please refer to: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
 ###Required Downloads:
 Please download the following zip file:
