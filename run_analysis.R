@@ -63,3 +63,8 @@ names(combine_data) <- gsub("tBody", "TimeBody", names(combine_data))
 run_analysis <- (combine_data %>%
                         group_by(Subject, Activity) %>%
                                 summarize_each(funs(mean)))
+
+
+## Create txt Files for the 2 Data Sets Created
+write.table(combine_data, file = "combine_data.txt", row.names = FALSE)
+write.table(run_analysis, file = "run_analysis.txt", row.names = FALSE)
