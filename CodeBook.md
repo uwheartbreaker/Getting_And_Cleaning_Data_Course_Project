@@ -2,9 +2,11 @@
 
 The data represents information collected from accelerometers in the Samsung Galaxy S smartphone in experiments performed by the UCI Machine Learning Repository.  Please refer to the following link for further detail on how the data was captured: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones.
 
+
 ###Required Downloads:
 Please download the following zip file:
  * https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 
 ###How the run_analysis.R File Works
  1.  The program begins by loading the files contained in the zip file into data tables.  These files consist of training tables, testing tables & the corresponding headers for these files (i.e. features & labels).
