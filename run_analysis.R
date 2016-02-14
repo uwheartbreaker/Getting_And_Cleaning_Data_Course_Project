@@ -1,6 +1,7 @@
 library(dplyr)
 
 ## Grab the Text Files
+## Change the working directory based on where you have downloaded the zip file.
 setwd("/Users/daniellocasto/Desktop/Course Project/UCI HAR Dataset")
 features     <- read.table("features.txt")
 labels       <- read.table("activity_labels.txt")
